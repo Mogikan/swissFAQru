@@ -1,0 +1,10 @@
+- name: Жилье
+  href: wohnung/
+  homepage: wohnung/intro.md
+- name: Транспорт
+  href: transport/
+  homepage: transport/index.md
+- name: Школа
+  href: schule/
+- name: Подтверждение прав
+  href: driver_license/
