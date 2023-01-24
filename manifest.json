@@ -1,0 +1,170 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/swissFAQru/swissFAQru",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "driver_license/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "driver_license/index.html",
+          "hash": "9A3PtYI7UrUbbug+UZOa7g2UJ1BljX6NKNaf9SJGqrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "driver_license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "driver_license/toc.html",
+          "hash": "01dG2T5BykTOyYJHRrPQ0SDh2MTb3R4gC6D6YanaWMM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "r4IdB5zqfZLrOmhF3Qogu7rxQ11iHnntx2QBPwWyoaU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "schule/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "schule/index.html",
+          "hash": "MCgQBzLIkekxTwbH9gww5i/aMV9BEfB5mdlw+3pLf0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "schule/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "schule/toc.html",
+          "hash": "h3qGDW0rwg/i1f1jCON6DZ1mN+QALg8QcJL1OHApovo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "TZCuvdYPwSzgHIf50KSlx6IrKZukbkhFgB6LJr0BQOE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "transport/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "transport/index.html",
+          "hash": "d3Z29qrMSZTESkcpZhQeArAiXe3AgbOna6PpYqWH7wA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "transport/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "transport/toc.html",
+          "hash": "dHaKVtP72WgBJji34a2qjb7peZgNjDVuZxZaTlwkCs4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "wohnung/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "wohnung/intro.html",
+          "hash": "RjS0NfiasjkJvBFJw9lYWqx0652XBn+Mx56bTZCUM7o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "wohnung/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "wohnung/toc.html",
+          "hash": "arUKjcRGbQStHszq3hw/hLKRUCYN5oUdj5MAZaqtDG4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
