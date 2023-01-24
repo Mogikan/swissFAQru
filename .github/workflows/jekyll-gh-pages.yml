@@ -1,48 +1,23 @@
-name: Docs
-
+name: FAQDeploy
 on:
   push:
     branches:
-    - main
-    paths:
-    - src/**
-    - ./**
-    - .github/workflows/docs.yml
-  pull_request:
-    branches:
-    - main
-    paths:
-    - ./**
-    - .github/workflows/docs.yml
-  workflow_dispatch:
+      - main
 
 jobs:
-  generate-docs:
-
-    runs-on: windows-latest
-
+  deploy:
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
-    - name: Setup .NET 6.0
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 6.0.x
-
-    - name: Setup DocFX
-      uses: crazy-max/ghaction-chocolatey@v1
-      with:
-        args: install docfx
-
-    - name: DocFX Build
-      working-directory: .
-      run: docfx docfx.json
-      continue-on-error: false
-
-    - name: Publish
-      if: github.event_name == 'push'
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: _site
-        force_orphan: true
+      - name: docfx-action
+        uses: nikeee/docfx-action@v1.0.0
+        with:
+          args: docfx.json
+      
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3.6.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
