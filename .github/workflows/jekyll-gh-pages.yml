@@ -40,7 +40,6 @@ jobs:
       continue-on-error: false
 
     - name: Publish
-      if: ${{ github.ref == 'refs/heads/main' }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
