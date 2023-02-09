@@ -1,11 +1,17 @@
 # Жилье
 ## Как искать жилье
 Есть специальные сайты для поиска жилья:
+
 [Homegate](https://www.homegate.ch/en)
+
 [Immoscout 24](https://www.immoscout24.ch)
+
 [Urbanhome](]https://www.urbanhome.ch)
+
 [Newhome](https://www.newhome.ch)
+
 [Comparis](https://en.comparis.ch/immobilien/default)
+
 Полезным будет изучить ставку налога и качество школ. см. [Статистика поступления в гимназию стр. 17](https://pub.bista.zh.ch/media/1018/schulen_kt_zh_2017_18.pdf) и
 [Ставка локального налога](https://q-images.nzz.ch/2019/01/23/M_Steuerfusse_2019-b0186f4fbd7d8e505b40a71218572852.png).
 Стоит заметить, что например, в Кюснахте живет много коренных зажиточных людей, а на другом берегу в Тальвиле, Кильхберге больше мигрантов и люди более лояльны к мигрантам (субъективное наблюдение).
