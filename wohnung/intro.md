@@ -6,7 +6,7 @@
 
 [Immoscout 24](https://www.immoscout24.ch)
 
-[Urbanhome](]https://www.urbanhome.ch)
+[Urbanhome](https://www.urbanhome.ch)
 
 [Newhome](https://www.newhome.ch)
 
